@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form{
+    width: 400px;
+    height: 300px;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 10px -10px  20px #2f80ed,
+    -10px 10px  20px #fe625a;
+    
+
+}
+.form h1{
+    text-align: center;
+}
+.form input{
+       width: 200px;
+       height: 30px;
+       border: 5px solid black;
+       border-radius: 5px;
+}
+.btn button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+}
+.error-message h3{
+        color: red;
+        text-align: center;
+}
+.success{
+    color:  #0057FF;
+    text-align: center;
+}
